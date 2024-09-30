@@ -10,3 +10,5 @@ while not termine:
         break
     else:
         total += int(nombre)
+    print("Ceci est exécuté, mais pas s'il y a un break")
+
