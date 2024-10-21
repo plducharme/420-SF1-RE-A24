@@ -18,9 +18,9 @@ class TestOperateurs(TestCase):
 
     def test_q3_priorite(self):
         self.assertEqual(q3_priorite(2, 3, 4), 625)
-        self.assertEqual(q3_priorite(3, 4, 2), 81)
-        self.assertEqual(q3_priorite(4, 2, 3), 4096)
-        self.assertEqual(q3_priorite(2, 4, 3), 64)
+        self.assertEqual(q3_priorite(3, 4, 2), 49)
+        self.assertEqual(q3_priorite(4, 2, 3), 216)
+
 
     def test_q4_moyenne(self):
         self.assertEqual(q4_moyenne(2.5, 3.5, 4.5), 3.5)
@@ -30,7 +30,7 @@ class TestOperateurs(TestCase):
 
 
 if __name__ == '__main__':
-    main(verbosity=1)
+    main(verbosity=2)
 
 
 
